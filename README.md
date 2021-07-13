@@ -7,7 +7,7 @@
 
 ### **This website is implementation of:**
 
-- ;
+- <img align="left"  width="100%" src="https://github.com/cse18107/community/blob/main/icons/html.png" /> HTML;
 - ;
 - ;
 
