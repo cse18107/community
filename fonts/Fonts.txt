@@ -1,0 +1,33 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+font-family: 'Yellowtail', cursive;
+-----------------------------------------------------------------------------------------------------
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yellowtail&display=swap" rel="stylesheet">
+
+font-family: 'Lobster', cursive;
+font-family: 'Yellowtail', cursive;
+
+-----------------------------------------------------------------------------------------------------
+
+.Sacramento-cursive {
+    font-family: 'Sacramento', cursive;
+}
+
+.Montserrat-sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Merriweather-serif {
+    font-family: 'Merriweather', serif;
+}
+
+ <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet" />
