@@ -6,11 +6,12 @@
 <br/>
 
 ### **👨👨This website is implementation of:**
+
 <br/>
 
- <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/html.png" />;
- <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/css.png" />;
- <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/js.png" />;
+ <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/html.png" />
+ <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/css.png" />
+ <img align="left"  width="10%" src="https://github.com/cse18107/community/blob/main/icons/js.png" />
 
 
 
