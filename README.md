@@ -11,7 +11,7 @@
 
 <br/>
 
- <img align="left" margin-left="20px" margin-top="10px" width="10%" src="https://github.com/cse18107/community/blob/main/icons/html.png" />
+ <img align="left" margin-left="20px" margin-top="50px" width="10%" src="https://github.com/cse18107/community/blob/main/icons/html.png" />
  <img align="left" margin-left="20px" width="10%" src="https://github.com/cse18107/community/blob/main/icons/css.png" />
  <img align="left" margin-left="20px" width="10%" src="https://github.com/cse18107/community/blob/main/icons/js.png" />
 
