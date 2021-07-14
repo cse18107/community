@@ -219,3 +219,60 @@ body{
     position: absolute;
     right: 0;
 }
+.section-4{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.section-4 .container{
+    width: 95%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 13%;
+}
+.section-4 .container .overlay{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 33%;
+}
+.section-4 .container .overlay .button{
+    width: 70px;
+    height: 10%;
+    background-color: blue;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 .container .image-slider{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.section-4 .container .image-slider .first{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.section-4 .container .image-slider .first img{
+    width: 100%;
+    height: 100%;
+}
+.section-4 .container .image-slider .second{
+    width: 33%;
+    height: 100%;
+    background-color:rgb(255, 255, 255) ;
+} 
+.section-4 .container .image-slider .second img{
+    height: 100%;
+}
