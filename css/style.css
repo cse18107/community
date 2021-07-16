@@ -97,6 +97,7 @@ body{
 .section-2 .container .left .text h1{
     font-size: 3.4rem;
 }
+
 .section-2 .container .left .text p{
     font-size: 1.2rem;
     margin-top: 50px;
@@ -136,6 +137,44 @@ body{
 }
 .section-2  .child .content p{
     margin-top: 10px;
+}
+@media screen and (max-width:1572px){
+    .section-2 .container .left .text h1{
+        font-size: 3.3rem;
+    } 
+}
+@media screen and (max-width:1526px){
+    .section-2 .container .left .text h1{
+        font-size: 3.2rem;
+    } 
+}
+@media screen and (max-width:1479px){
+    .section-2 .container .left .text h1{
+        font-size: 3.1rem;
+    } 
+}
+@media screen and (max-width:1434px){
+    .section-2 .container .left .text h1{
+        font-size: 3rem;
+    } 
+    .section-2 .container .right img{
+        width:480px;
+    }
+}
+@media screen and (max-width:1387px){
+    .section-2 .container .left .text h1{
+        font-size: 2.9rem;
+    } 
+}
+@media screen and (max-width:1341px){
+    .section-2 .container .left .text h1{
+        font-size: 2.8rem;
+    } 
+}
+@media screen and (max-width:1295px){
+    .section-2 .container .left .text h1{
+        font-size: 2.7rem;
+    } 
 }
 .section-3{
     width: 100%;
