@@ -485,7 +485,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .section-5 .container .page-content .lower-section .image{
-    width: 70%;
+    width: 530px;
     display: flex;
     justify-content: space-between;
 }
