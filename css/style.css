@@ -1,8 +1,9 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 /* FONT */
 /* ============================================== */
 .Sacramento-cursive {
@@ -16,19 +17,22 @@
 .Merriweather-serif {
     font-family: 'Merriweather', serif;
 }
-.Yellowtail{
+
+.Yellowtail {
     font-family: 'Yellowtail', cursive;
 }
+
 /* ==================================================== */
-body{
-    height:9000px;
-    
+body {
+    height: 9000px;
+
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
-.section-1{
+.section-1 {
     width: 100%;
     height: 100px;
     background-color: rgb(0, 0, 0);
@@ -36,31 +40,37 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
-    width:80%;
+
+.container {
+    width: 80%;
     justify-content: space-between;
 }
-.section-1 .container .logo{
-    color:white;
+
+.section-1 .container .logo {
+    color: white;
     font-size: 2.9rem;
 }
-.section-1 .container .link{
-    color:white;
+
+.section-1 .container .link {
+    color: white;
     width: 380px;
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: center;
 }
-.section-1 .container .icon{
+
+.section-1 .container .icon {
     width: 100px;
-  
+
 }
-.section-1 .container .icon img{
+
+.section-1 .container .icon img {
     width: 20px;
     margin-left: 10px;
     margin-top: 19px;
 }
-.section-2{
+
+.section-2 {
     width: 100%;
     height: 900px;
     background-color: rgb(0, 0, 0);
@@ -68,41 +78,51 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-  
+
 }
-.section-2 .container{
+
+.section-2 .container {
     width: 80%;
     height: 80%;
     margin-bottom: 70px;
     background-color: rgb(0, 0, 0);
 }
-.section-2 .container .left , .section-2 .container .right{
+
+.section-2 .container .left,
+.section-2 .container .right {
     width: 50%;
     height: 100%;
 }
-.section-2 .container .left{
+
+.section-2 .container .left {
     background-color: rgb(0, 0, 0);
 }
-.section-2 .container .right{
-    background-color:rgb(0, 0, 0);
+
+.section-2 .container .right {
+    background-color: rgb(0, 0, 0);
 }
-.section-2 .container .left .text{
+
+.section-2 .container .left .text {
     margin-top: 100px;
     width: 100%;
     background-color: rgb(0, 0, 0);
 }
-.white{
+
+.white {
     color: white;
 }
-.section-2 .container .left .text h1{
+
+.section-2 .container .left .text h1 {
     font-size: 3.4rem;
 }
-.section-2 .container .left .text p{
+
+.section-2 .container .left .text p {
     font-size: 1.2rem;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.section-2 .container .left .text button{
+
+.section-2 .container .left .text button {
     width: 140px;
     height: 50px;
     font-size: 1rem;
@@ -111,16 +131,19 @@ body{
     border: none;
     outline: none;
 }
-.section-2 .container .right{
+
+.section-2 .container .right {
     position: relative;
 }
-.section-2 .container .right img{
+
+.section-2 .container .right img {
     width: 500px;
     margin-top: 50px;
     position: absolute;
     right: 0;
 }
-.section-2  .child{
+
+.section-2 .child {
     position: absolute;
     width: 600px;
     height: 300px;
@@ -131,113 +154,140 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-2  .child .content h3{
+
+.section-2 .child .content h3 {
     text-align: center;
 }
-.section-2  .child .content p{
+
+.section-2 .child .content p {
     margin-top: 10px;
 }
-@media screen and (max-width:1572px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1572px) {
+    .section-2 .container .left .text h1 {
         font-size: 3.3rem;
-    } 
+    }
 }
-@media screen and (max-width:1526px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1526px) {
+    .section-2 .container .left .text h1 {
         font-size: 3.2rem;
-    } 
+    }
 }
-@media screen and (max-width:1479px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1479px) {
+    .section-2 .container .left .text h1 {
         font-size: 3.1rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 480px;
     }
 }
-@media screen and (max-width:1434px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1434px) {
+    .section-2 .container .left .text h1 {
         font-size: 3rem;
-    } 
-    .section-2 .container .right img{
-        width:480px;
+    }
+
+    .section-2 .container .right img {
+        width: 480px;
     }
 }
-@media screen and (max-width:1387px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1387px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.9rem;
     }
-    .section-2 .container .right img{
+
+    .section-2 .container .right img {
         width: 460px;
-    } 
+    }
 }
-@media screen and (max-width:1341px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1341px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.8rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 450px;
     }
 }
-@media screen and (max-width:1295px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1295px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.7rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 440px;
     }
 }
-@media screen and (max-width:1249px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1249px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.6rem;
-    } 
+    }
 }
-@media screen and (max-width:1203px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1203px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.5rem;
     }
-    .section-2 .container .right img{
+
+    .section-2 .container .right img {
         width: 430px;
-    } 
+    }
 }
-@media screen and (max-width:1156px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1156px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.4rem;
-    } 
+    }
 }
-@media screen and (max-width:1110px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1110px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.3rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 420px;
     }
 }
-@media screen and (max-width:1065px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1065px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.2rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 410px;
     }
 }
-@media screen and (max-width:1045px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1045px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.2rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 390px;
     }
 }
-@media screen and (max-width:1018px){
-    .section-2 .container .left .text h1{
+
+@media screen and (max-width:1018px) {
+    .section-2 .container .left .text h1 {
         font-size: 2.1rem;
-    } 
-    .section-2 .container .right img{
+    }
+
+    .section-2 .container .right img {
         width: 370px;
     }
 }
-.section-3{
+
+.section-3 {
     width: 100%;
     height: 1000px;
     background-color: rgb(255, 255, 255);
@@ -245,63 +295,75 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-3 .container{
+
+.section-3 .container {
     width: 80%;
     height: 89%;
     background-color: rgb(255, 255, 255);
 }
-.section-3 .container .page-name{
+
+.section-3 .container .page-name {
     width: 100%;
     height: 10%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
-.section-3 .container .page-name .about-us{
+
+.section-3 .container .page-name .about-us {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.section-3 .container .page-name .page-number{
+
+.section-3 .container .page-name .page-number {
     font-size: 1.6rem;
     color: rgba(77, 76, 76, 0.849);
 }
-.section-3 .container .page-name .page-number .sub-num{
+
+.section-3 .container .page-name .page-number .sub-num {
     margin-left: 5px;
 }
-.section-3 .container .page-content{
+
+.section-3 .container .page-content {
     width: 100%;
     height: 90%;
     background-color: rgb(255, 255, 255);
 }
-.section-3 .container .page-content .left{
+
+.section-3 .container .page-content .left {
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
-.section-3 .container .page-content .right{
+
+.section-3 .container .page-content .right {
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
-.section-3 .container .page-content .left h1{
+
+.section-3 .container .page-content .left h1 {
     font-size: 3.3rem;
-    
+
 }
-.section-3 .container .page-content .left p{
+
+.section-3 .container .page-content .left p {
     font-size: 1.2rem;
     margin-top: 50px;
 }
-.section-3 .container .page-content .left .sub-heading h2{
+
+.section-3 .container .page-content .left .sub-heading h2 {
     font-size: 2.3rem;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    
+
     border-left: 6px solid black;
 }
-.section-3 .container .page-content .left button{
+
+.section-3 .container .page-content .left button {
     width: 150px;
     height: 60px;
     font-size: 1rem;
@@ -311,21 +373,25 @@ body{
     outline: none;
     margin-top: 50px;
 }
-.section-3 .container .page-content .right .image{
+
+.section-3 .container .page-content .right .image {
     position: relative;
 }
-.section-3 .container .page-content .right .image img{
+
+.section-3 .container .page-content .right .image img {
     width: 600px;
     position: absolute;
     right: 0;
 }
-.section-4{
+
+.section-4 {
     width: 100%;
     height: 800px;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
-.section-4 .container{
+
+.section-4 .container {
     width: 90%;
     height: 75%;
     background-color: rgb(255, 255, 255);
@@ -333,16 +399,18 @@ body{
     right: 0;
     top: 12%;
 }
-.section-4 .container .overlay{
+
+.section-4 .container .overlay {
     position: absolute;
     width: 37%;
     height: 100%;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.section-4 .container .overlay .button{
+
+.section-4 .container .overlay .button {
     position: absolute;
-    top:45%;
+    top: 45%;
     left: 20%;
     width: 70px;
     height: 10%;
@@ -351,32 +419,38 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-4 .container .image-slider{
+
+.section-4 .container .image-slider {
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
-.section-4 .container .image-slider .first{
+
+.section-4 .container .image-slider .first {
     width: 60%;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
-.section-4 .container .image-slider .first img{
+
+.section-4 .container .image-slider .first img {
     width: 100%;
     height: 100%;
 }
-.section-4 .container .image-slider .second{
+
+.section-4 .container .image-slider .second {
     width: 37%;
     height: 100%;
     background-color: cornflowerblue;
     overflow: hidden;
 }
-.section-4 .container .image-slider .second img{
+
+.section-4 .container .image-slider .second img {
     height: 100%;
 }
-.section-5{
+
+.section-5 {
     width: 100%;
     height: 1000px;
     display: flex;
@@ -384,56 +458,66 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-5 .container{
+
+.section-5 .container {
     width: 80%;
     height: 90%;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
-.section-5 .container .page-name{
+
+.section-5 .container .page-name {
     justify-content: space-between;
 }
-.section-5 .container .page-name .features{
+
+.section-5 .container .page-name .features {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.section-5 .container .page-name .page-number{
+
+.section-5 .container .page-name .page-number {
     font-size: 1.6rem;
     color: rgba(77, 76, 76, 0.849);
 }
-.section-5 .container .page-content{
+
+.section-5 .container .page-content {
     width: 100%;
     height: 85%;
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
 }
-.section-5 .container .page-content .button{
+
+.section-5 .container .page-content .button {
     width: 100%;
     height: 5%;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
-.section-5 .container .page-content .button button{
+
+.section-5 .container .page-content .button button {
     width: 300px;
     background-color: white;
     border-bottom: 4px solid rgba(192, 191, 191, 0.582);
-    border-top:none;
+    border-top: none;
     font-size: 0.91rem;
     font-weight: bold;
-    border-left:none;
-    border-right:none;
-    padding-right:180px ;
+    border-left: none;
+    border-right: none;
+    padding-right: 180px;
 }
-.section-5 .container .page-content .button button:hover{
+
+.section-5 .container .page-content .button button:hover {
     border-bottom: 3px solid rgb(251, 255, 0);
 }
-.section-5 .container .page-content .lower-section{
+
+.section-5 .container .page-content .lower-section {
     width: 100%;
     height: 95%;
     background-color: rgb(255, 255, 255);
 }
-.section-5 .container .page-content .lower-section .left{
+
+.section-5 .container .page-content .lower-section .left {
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -441,99 +525,111 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-5 .container .page-content .lower-section .right{
+
+.section-5 .container .page-content .lower-section .right {
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
-.section-5 .container .page-content .lower-section .image{
+
+.section-5 .container .page-content .lower-section .image {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
-.section-5 .container .page-content .lower-section .image img{
+
+.section-5 .container .page-content .lower-section .image img {
     width: 250px;
     height: 500px;
 }
-.section-5 .right{
+
+.section-5 .right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-5 .right .text-section{
+
+.section-5 .right .text-section {
     width: 70%;
     height: 500px;
 }
-.section-5 .right .text-section h1{
+
+.section-5 .right .text-section h1 {
     font-size: 2.7rem;
 }
-@media screen and (max-width:1885px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1885px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.6rem;
     }
 }
-@media screen and (max-width:1815px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1815px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.5rem;
     }
 }
-@media screen and (max-width:1745px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1745px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.4rem;
     }
 }
-@media screen and (max-width:1676px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1676px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.3rem;
     }
 }
-@media screen and (max-width:1606px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1606px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.2rem;
     }
 }
-@media screen and (max-width:1536px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1536px) {
+    .section-5 .right .text-section h1 {
         font-size: 2.1rem;
     }
 }
-@media screen and (max-width:1466px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1466px) {
+    .section-5 .right .text-section h1 {
         font-size: 2rem;
     }
 }
-@media screen and (max-width:1396px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1396px) {
+    .section-5 .right .text-section h1 {
         font-size: 1.9rem;
     }
 }
-@media screen and (max-width:1326px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1326px) {
+    .section-5 .right .text-section h1 {
         font-size: 1.8rem;
     }
 }
-@media screen and (max-width:1257px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1257px) {
+    .section-5 .right .text-section h1 {
         font-size: 1.7rem;
     }
 }
-@media screen and (max-width:1187px){
-    .section-5 .right .text-section h1{
+
+@media screen and (max-width:1187px) {
+    .section-5 .right .text-section h1 {
         font-size: 1.6rem;
     }
 }
-.section-5 .right .text-section p{
+
+.section-5 .right .text-section p {
     font-size: 1.1rem;
     margin-top: 50px;
 }
-.section-5 .right .text-section .icon-text-section .upper{
-    margin-top: 50px;
-    width: 200px;
-    font-weight: bold;
-    align-items: center;
-    justify-content: space-between;
-}
-.section-5 .right .text-section .icon-text-section .lower{
+
+.section-5 .right .text-section .icon-text-section .upper {
     margin-top: 50px;
     width: 200px;
     font-weight: bold;
@@ -541,13 +637,23 @@ body{
     justify-content: space-between;
 }
 
-.section-5 .right .text-section .icon-text-section .lower .icon img{
+.section-5 .right .text-section .icon-text-section .lower {
+    margin-top: 50px;
+    width: 200px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-5 .right .text-section .icon-text-section .lower .icon img {
     margin-left: 5px;
 }
-.section-5 .right .text-section .icon-text-section  .icon img{
+
+.section-5 .right .text-section .icon-text-section .icon img {
     width: 25px;
 }
-.section-5 .right .text-section .icon-text-section  .icon{
+
+.section-5 .right .text-section .icon-text-section .icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -556,9 +662,11 @@ body{
     align-items: center;
     background-color: rgba(167, 167, 167, 0.424);
 }
-.section-5 .right .text-section .icon-text-section  .icon:hover{
+
+.section-5 .right .text-section .icon-text-section .icon:hover {
     background-color: rgba(110, 110, 110, 0.424);
 }
+
 .section-6 {
     height: 400px;
     width: 100%;
@@ -567,7 +675,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-6{
+
+.section-6 {
     width: 100%;
     height: 400px;
     background-color: rgb(0, 0, 0);
@@ -575,25 +684,31 @@ body{
     justify-content: center;
     align-items: center;
 }
-.horizontal-center-h1{
+
+.horizontal-center-h1 {
     margin-top: 100px;
 }
-.horizontal-center-h3{
+
+.horizontal-center-h3 {
     margin-top: 120px;
 }
-.horizontal-center-button{
+
+.horizontal-center-button {
     margin-top: 140px;
 }
-.section-6 .container{
+
+.section-6 .container {
     width: 80%;
     height: 90%;
     background-color: rgb(0, 0, 0);
 }
-.section-6 .container h1{
+
+.section-6 .container h1 {
     font-size: 2.8rem;
     color: white;
 }
-.section-6 .container button{
+
+.section-6 .container button {
     width: 140px;
     height: 60px;
     font-size: 1.1rem;
@@ -601,10 +716,12 @@ body{
     border: none;
     background-color: rgb(255, 255, 72);
 }
-.section-6 .container button span{
-    margin-left:10px ;
+
+.section-6 .container button span {
+    margin-left: 10px;
 }
-.section-7{
+
+.section-7 {
     width: 100%;
     height: 1900px;
     display: flex;
@@ -612,33 +729,41 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-7 .container{
+
+.section-7 .container {
     width: 80%;
     height: 90%;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
-.section-7 .container .page-name{
+
+.section-7 .container .page-name {
     justify-content: space-between;
 }
-.section-7 .container .page-name .featured-project{
+
+.section-7 .container .page-name .featured-project {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.section-7 .container .page-name .page-number{
+
+.section-7 .container .page-name .page-number {
     font-size: 1.6rem;
     color: rgba(77, 76, 76, 0.849);
 }
-.section-7 .container .page-content{
+
+.section-7 .container .page-content {
     margin-top: 60px;
 }
-.section-7 .container .page-content .part-1{
+
+.section-7 .container .page-content .part-1 {
     justify-content: space-between;
 }
-.section-7 .container .page-content .part-1 .h1{
+
+.section-7 .container .page-content .part-1 .h1 {
     font-size: 1.8rem;
 }
-.section-7 .container .page-content .part-1 .links{
+
+.section-7 .container .page-content .part-1 .links {
     width: 500px;
     justify-content: space-between;
     margin-top: 20px;
@@ -646,39 +771,46 @@ body{
     color: rgba(114, 114, 114, 0.849);
     cursor: pointer;
 }
-.section-7 .container .page-content .part-1 .links p{
+
+.section-7 .container .page-content .part-1 .links p {
     cursor: pointer;
 }
-.section-7 .container .page-content .part-1 .links p:hover{
+
+.section-7 .container .page-content .part-1 .links p:hover {
     color: blue;
 }
-.section-7 .container .page-content .part-2{
-    margin-top:100px ;
+
+.section-7 .container .page-content .part-2 {
+    margin-top: 100px;
     width: 100%;
     height: 1200px;
     background-color: cadetblue;
 }
-.section-7 .container .page-content .part-2 .left{
+
+.section-7 .container .page-content .part-2 .left {
     width: 50%;
     height: 100%;
     background-color: chartreuse;
 }
+
 .section-7 .container .page-content .part-2 .left .img1 {
     width: 100%;
     height: 50%;
     background-color: crimson;
     position: relative;
     overflow: hidden;
-} 
+}
 
-.section-7 .container .page-content .part-2 .left .img1 img{
+.section-7 .container .page-content .part-2 .left .img1 img {
     width: 100%;
-   
-} 
-.space-between{
+
+}
+
+.space-between {
     justify-content: space-between;
 }
-.section-7 .container .page-content .part-2 .left .img1 .layer{
+
+.section-7 .container .page-content .part-2 .left .img1 .layer {
     width: 100%;
     height: 100%;
     background-color: rgba(126, 255, 255, 0.466);
@@ -689,49 +821,60 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-7 .container .page-content .part-2 .left .img1:hover .layer{
+
+.section-7 .container .page-content .part-2 .left .img1:hover .layer {
     left: 0;
 }
-.section-7 .container .page-content .part-2 .layer .layer__content{
+
+.section-7 .container .page-content .part-2 .layer .layer__content {
     width: 80%;
     height: 80%;
 }
-.section-7 .container .page-content .part-2  .layer .layer__content h2{
+
+.section-7 .container .page-content .part-2 .layer .layer__content h2 {
     font-size: 2.6rem;
 }
-.section-7 .container .page-content .part-2  .layer .layer__content p{
+
+.section-7 .container .page-content .part-2 .layer .layer__content p {
     margin-top: 60px;
 }
-.section-7 .container .page-content .part-2  .layer .layer__content .client{
+
+.section-7 .container .page-content .part-2 .layer .layer__content .client {
     margin-top: 60px;
     margin-bottom: 10px;
 }
-.section-7 .container .page-content .part-2  .layer .layer__content .button {
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button {
     align-items: center;
     margin-top: 150px;
-   
-    
+
+
 }
-.section-7 .container .page-content .part-2  .layer .layer__content .button h3{
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button h3 {
     font-size: 1.5rem;
     cursor: pointer;
 }
-.section-7 .container .page-content .part-2  .layer .layer__content .button  img{
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button img {
     margin-left: 20px;
     cursor: pointer;
 }
+
 .section-7 .container .page-content .part-2 .left .img2 {
     width: 100%;
     height: 50%;
     background-color: rgb(255, 127, 153);
     position: relative;
     overflow: hidden;
-} 
-.section-7 .container .page-content .part-2 .left .img2 img{
+}
+
+.section-7 .container .page-content .part-2 .left .img2 img {
     width: 100%;
-    
-} 
-.section-7 .container .page-content .part-2 .left .img2 .layer{
+
+}
+
+.section-7 .container .page-content .part-2 .left .img2 .layer {
     width: 100%;
     height: 100%;
     background-color: rgba(153, 105, 90, 0.616);
@@ -742,34 +885,39 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-7 .container .page-content .part-2 .left .img2:hover .layer{
+
+.section-7 .container .page-content .part-2 .left .img2:hover .layer {
     bottom: 0;
 }
 
-.section-7 .container .page-content .part-2 .right{
+.section-7 .container .page-content .part-2 .right {
     width: 50%;
     height: 100%;
     background-color: chocolate;
 }
-.section-7 .container .page-content .part-2 .right .img1{
+
+.section-7 .container .page-content .part-2 .right .img1 {
     width: 100%;
     height: 60%;
     background-color: rgb(87, 210, 30);
     position: relative;
     overflow: hidden;
 }
-.section-7 .container .page-content .part-2 .right .img2{
+
+.section-7 .container .page-content .part-2 .right .img2 {
     width: 100%;
     height: 40%;
     background-color: rgb(232, 255, 28);
     position: relative;
     overflow: hidden;
 }
-.section-7 .container .page-content .part-2 .right .img1 img{
+
+.section-7 .container .page-content .part-2 .right .img1 img {
     width: 100%;
-   
-} 
-.section-7 .container .page-content .part-2 .right .img1 .layer{
+
+}
+
+.section-7 .container .page-content .part-2 .right .img1 .layer {
     width: 100%;
     height: 100%;
     background-color: rgba(71, 71, 71, 0.603);
@@ -780,17 +928,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-7 .container .page-content .part-2 .right .img1:hover .layer{
+
+.section-7 .container .page-content .part-2 .right .img1:hover .layer {
     right: 0;
 }
-.section-7 .container .page-content .part-2 .right .img2 img{
+
+.section-7 .container .page-content .part-2 .right .img2 img {
     width: 100%;
     height: 100%;
 }
-.section-7 .container .page-content .part-2 .right .img2 .layer{
+
+.section-7 .container .page-content .part-2 .right .img2 .layer {
     width: 100%;
     height: 100%;
-    background-color:rgba(49, 80, 138, 0.664);
+    background-color: rgba(49, 80, 138, 0.664);
     position: absolute;
     top: -100%;
     transition: 0.5s all ease;
@@ -798,22 +949,26 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-7 .container .page-content .part-2 .right .img2:hover .layer{
+
+.section-7 .container .page-content .part-2 .right .img2:hover .layer {
     top: 0;
 }
-.section-7 .container .page-content .part-3{
+
+.section-7 .container .page-content .part-3 {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.section-7 .container .page-content .part-3 .left{
+
+.section-7 .container .page-content .part-3 .left {
     width: 40%;
     font-size: 1.1rem;
     font-weight: 900;
     color: rgb(129, 129, 129);
 }
-.section-7 .container .page-content .part-3 .right button{
+
+.section-7 .container .page-content .part-3 .right button {
     width: 140px;
     height: 60px;
     background-color: blue;
@@ -823,9 +978,10 @@ body{
     font-size: 1rem;
     outline: none;
     border: none;
-    color: white; 
+    color: white;
 }
-.section-8{
+
+.section-8 {
     width: 100%;
     height: 1200px;
     background-color: rgb(255, 255, 255);
@@ -833,57 +989,68 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-8 .container{
+
+.section-8 .container {
     width: 80%;
     height: 89%;
     background-color: rgb(255, 255, 255);
 }
-.section-8 .container .page-name{
+
+.section-8 .container .page-name {
     width: 100%;
     height: 10%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
-.section-8 .container .page-name .testimonial{
+
+.section-8 .container .page-name .testimonial {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.section-8 .container .page-name .page-number{
+
+.section-8 .container .page-name .page-number {
     font-size: 1.6rem;
     color: rgba(77, 76, 76, 0.849);
 }
-.section-8 .container .page-name .page-number .sub-num{
+
+.section-8 .container .page-name .page-number .sub-num {
     margin-left: 5px;
 }
-.section-8 .page-content{
+
+.section-8 .page-content {
     width: 100%;
     height: 90%;
     background-color: rgb(255, 255, 255);
 }
-.section-8 .page-content .left{
+
+.section-8 .page-content .left {
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
-.section-8 .page-content .left h4{
+
+.section-8 .page-content .left h4 {
     font-size: 1.3rem;
     color: rgb(82, 82, 82);
 }
-.section-8 .page-content .left h5{
+
+.section-8 .page-content .left h5 {
     margin-top: 20px;
     font-size: 1.2rem;
     margin-bottom: 150px;
     color: rgb(131, 131, 131);
-    
+
 }
+
 .section-8 .page-content .left .button {
     position: absolute;
     bottom: 0;
     align-items: center;
 }
-.section-8 .page-content .left .button .icon{
+
+.section-8 .page-content .left .button .icon {
     margin-left: 10px;
     align-items: center;
     width: 45px;
@@ -893,27 +1060,32 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-8 .page-content .left .button .icon:hover{
+
+.section-8 .page-content .left .button .icon:hover {
     background-color: rgb(202, 148, 12);
 
 }
-.section-8 .page-content .left h2{
-    
+
+.section-8 .page-content .left h2 {
+
     font-size: 3rem;
     font-weight: bold;
 }
-.section-8 .page-content .right{
+
+.section-8 .page-content .right {
     width: 50%;
     height: 100%;
     position: relative;
     background-color: rgb(255, 255, 255);
 }
-.section-8 .page-content .right img{
+
+.section-8 .page-content .right img {
     width: 83.5%;
     position: absolute;
     right: 0;
 }
-.section-9{
+
+.section-9 {
     width: 100%;
     height: 500px;
     background-color: rgb(228, 228, 228);
@@ -921,39 +1093,99 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section-9 .container{
+
+.section-9 .container {
     width: 80%;
     height: 90%;
-    
+
 }
-.section-9 .container .part-1{
+
+.section-9 .container .part-1 {
     width: 100%;
     height: 27%;
     justify-content: space-between;
 }
-.section-9 .container .part-1 h2{
+
+.section-9 .container .part-1 h2 {
     font-size: 3rem;
-   
+
 }
-.section-9 .container .part-1 h4{
+
+.section-9 .container .part-1 h4 {
     font-size: 1.5rem;
     color: rgb(90, 90, 90);
     margin-bottom: 25px;
 }
-.section-9 .container .part-1 h5{
+
+.section-9 .container .part-1 h5 {
     color: rgb(117, 117, 117);
 
 }
-.section-9 .container .part-2 .images{
+
+.section-9 .container .part-2 .images {
     margin-top: 100px;
     width: 100%;
     height: 50%;
     justify-content: space-between;
 }
-.section-9 .container .part-2 .img img{
+
+.section-9 .container .part-2 .img img {
     width: 120px;
 }
 
+.section-10 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section-10 .container {
+    width: 80%;
+    height: 47%;
+}
 
+.section-10 .container .left {
+    width: 50%;
+    height: 100%;
+}
 
+.section-10 .container .left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-10 .container .left .mail {
+    margin-top: 40px;
+    color: blue;
+}
+
+.section-10 .container .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-left: solid 3px rgb(185, 185, 185);
+}
+
+.section-10 .container .right .center {
+    position: absolute;
+    justify-content: space-between;
+    width: 70%;
+    top: 0;
+}
+.section-10 .container .right .center h5{
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+}
+.section-10 .container .right .center h4{
+    margin-bottom: 10px;
+}
+.section-10 .container .right .center span{
+    margin-left: 5px;
+}
