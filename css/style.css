@@ -21,7 +21,7 @@
 }
 /* ==================================================== */
 body{
-    height:8000px;
+    height:9000px;
     
 }
 .flex{
@@ -912,6 +912,46 @@ body{
     width: 83.5%;
     position: absolute;
     right: 0;
+}
+.section-9{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-9 .container{
+    width: 80%;
+    height: 90%;
+    
+}
+.section-9 .container .part-1{
+    width: 100%;
+    height: 27%;
+    justify-content: space-between;
+}
+.section-9 .container .part-1 h2{
+    font-size: 3rem;
+   
+}
+.section-9 .container .part-1 h4{
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 25px;
+}
+.section-9 .container .part-1 h5{
+    color: rgb(117, 117, 117);
+
+}
+.section-9 .container .part-2 .images{
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+.section-9 .container .part-2 .img img{
+    width: 120px;
 }
 
 
