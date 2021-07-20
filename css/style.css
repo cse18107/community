@@ -24,7 +24,7 @@
 
 /* ==================================================== */
 body {
-    height: 9000px;
+    height: 8400px;
 
 }
 
@@ -47,12 +47,12 @@ body {
 }
 
 .section-1 .container .logo {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2.9rem;
 }
 
 .section-1 .container .link {
-    color: white;
+    color: rgb(255, 255, 255);
     width: 380px;
     font-size: 1.2rem;
     justify-content: space-between;
@@ -1087,7 +1087,9 @@ body {
 
 .section-9 {
     width: 100%;
-    height: 500px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: center;
@@ -1096,7 +1098,7 @@ body {
 
 .section-9 .container {
     width: 80%;
-    height: 90%;
+    height: 70%;
 
 }
 
@@ -1176,6 +1178,7 @@ body {
     justify-content: space-between;
     width: 70%;
     top: 0;
+    right: 0;
 }
 .section-10 .container .right .center h5{
     margin-bottom: 30px;
@@ -1189,3 +1192,40 @@ body {
 .section-10 .container .right .center span{
     margin-left: 5px;
 }
+.section-11 {
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-11 .container .logo {
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.section-11 .container .link {
+    color: rgb(116, 116, 116);
+    width: 380px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-11 .container .copyright {
+    width: 300px;
+    color: rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-11 .container .copyright h4{
+    position: absolute;
+    right: 0;
+}
+
