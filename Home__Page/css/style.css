@@ -66,6 +66,13 @@ body {
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease;
+}
+.section-1 .container .link p{
+    transition: all 0.5s ease;
+}
+.section-1 .container .link p:hover{
+    border-bottom: 4px solid white;
 }
 
 .section-1 .container .icon {
