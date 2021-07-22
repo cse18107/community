@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT */
+/* ============================================== */
+.Sacramento-cursive {
+    font-family: 'Sacramento', cursive;
+}
+
+.Montserrat-sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Merriweather-serif {
+    font-family: 'Merriweather', serif;
+}
+
+.Yellowtail {
+    font-family: 'Yellowtail', cursive;
+}
+
+/* ==================================================== */
+body {
+    height: 1000px;
+
+}
+.flex {
+    display: flex;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.section-1 .container .logo {
+    color: rgb(255, 255, 255);
+    font-size: 2.9rem;
+}
+
+.section-1 .container .link {
+    color: rgb(255, 255, 255);
+    width: 380px;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 .container .icon {
+    width: 100px;
+
+}
+
+.section-1 .container .icon img {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+.section-9 {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-9 .container {
+    width: 80%;
+    height: 70%;
+
+}
+
+.section-9 .container .part-1 {
+    width: 100%;
+    height: 27%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-1 h2 {
+    font-size: 3rem;
+
+}
+
+.section-9 .container .part-1 h4 {
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 25px;
+}
+
+.section-9 .container .part-1 h5 {
+    color: rgb(117, 117, 117);
+
+}
+
+.section-9 .container .part-2 .images {
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-2 .img img {
+    width: 120px;
+}
+
+.section-10 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-10 .container {
+    width: 80%;
+    height: 47%;
+}
+
+.section-10 .container .left {
+    width: 50%;
+    height: 100%;
+}
+
+.section-10 .container .left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-10 .container .left .mail {
+    margin-top: 40px;
+    color: blue;
+}
+
+.section-10 .container .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-left: solid 3px rgb(185, 185, 185);
+}
+
+.section-10 .container .right .center {
+    position: absolute;
+    justify-content: space-between;
+    width: 70%;
+    top: 0;
+    right: 0;
+}
+.section-10 .container .right .center h5{
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+}
+.section-10 .container .right .center h4{
+    margin-bottom: 10px;
+}
+.section-10 .container .right .center span{
+    margin-left: 5px;
+}
+.section-11 {
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-11 .container .logo {
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.section-11 .container .link {
+    color: rgb(107, 107, 107);
+    width: 380px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-11 .container .copyright {
+    width: 300px;
+    color: rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-11 .container .copyright h4{
+    position: absolute;
+    right: 0;
+}
+
