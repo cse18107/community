@@ -328,6 +328,87 @@ body {
 }
 
 
+.section-5 {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section-5 .container {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-5 .container .page-name {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5 .container .page-name .team {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-5 .container .page-name .page-number {
+    font-size: 1.6rem;
+    color: rgba(77, 76, 76, 0.849);
+}
+
+.section-5 .container .page-name .page-number .sub-num {
+    margin-left: 5px;
+}
+.section-5 .container .page-content{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 23.49% 23.49% 23.49% 23.49%;
+    column-gap:2%;
+    grid-template-rows: 45% 45%;
+    row-gap: 10%;
+}
+.section-5 .container .page-content .box{
+    width: 100%;
+    height: 239px;
+    overflow: hidden;
+}
+.section-5 .container .page-content .box .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    top: -100%;
+    transition: all 0.5s ease;
+}
+.section-5 .container .page-content .box:hover .layer{
+    top:0%
+}
+.section-5 .container .page-content .box .layer .box__content{
+    color: white;
+    width: 80%;
+    height: 90%;
+}
+.section-5 .container .page-content .box .layer .box__content h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.section-5 .container .page-content .box .layer .box__content h4{
+    margin-bottom: 60px;
+}
+.section-5 .container .page-content .box .layer .box__content p{
+    font-weight: bold;
+}
+.section-5 .container .page-content img{
+    width: 100%;
+}
+
+
+
 
 
 
