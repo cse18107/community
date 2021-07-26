@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT */
+/* ============================================== */
+.Sacramento-cursive {
+    font-family: 'Sacramento', cursive;
+}
+
+.Montserrat-sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Merriweather-serif {
+    font-family: 'Merriweather', serif;
+}
+
+.Yellowtail {
+    font-family: 'Yellowtail', cursive;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+}
+/* ==================================================== */
+body {
+    height: 5399px;
+
+}
+.flex {
+    display: flex;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.section-1 .container .logo {
+    color: rgb(255, 255, 255);
+    font-size: 2.9rem;
+}
+
+.section-1 .container .link {
+    color: rgb(255, 255, 255);
+    width: 380px;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.section-1 .container .link p{
+    transition: all 0.5s ease;
+}
+.section-1 .container .link p:hover{
+    border-bottom: 4px solid white;
+}
+
+.section-1 .container .icon {
+    width: 100px;
+
+}
+
+.section-1 .container .icon img {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+
+.section-2{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: relative;
+}
+.section-2 .container{
+    width: 80%;
+    height: 40%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+.section-7 {
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17%;
+}
+
+.section-7 .container {
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+.section-7 .container .page-name {
+    justify-content: space-between;
+
+}
+
+.section-7 .container .page-name .featured-project {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-7 .container .page-name .page-number {
+    font-size: 1.6rem;
+    color: rgba(77, 76, 76, 0.849);
+}
+
+.section-7 .container .page-content {
+    margin-top: 60px;
+}
+
+.section-7 .container .page-content .part-1 {
+    justify-content: space-between;
+}
+
+.section-7 .container .page-content .part-1 .h1 {
+    font-size: 1.8rem;
+    color:white;
+}
+
+.section-7 .container .page-content .part-1 .links {
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgba(114, 114, 114, 0.849);
+    cursor: pointer;
+}
+
+.section-7 .container .page-content .part-1 .links p {
+    cursor: pointer;
+    color: white;
+}
+
+.section-7 .container .page-content .part-1 .links p:hover {
+    color: blue;
+}
+
+.section-7 .container .page-content .part-2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 3000px;
+    background-color: cadetblue;
+}
+
+.section-7 .container .page-content .part-2 .left {
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+}
+/* =====================IMG-1============================== */
+.section-7 .container .page-content .part-2 .left .img1 {
+    width: 100%;
+    height: 25%;
+    background-color: crimson;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .left .img1 img {
+    width: 100%;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.section-7 .container .page-content .part-2 .left .img1 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(126, 255, 255, 0.466);
+    position: absolute;
+    left: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .left .img1:hover .layer {
+    left: 0;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content {
+    width: 80%;
+    height: 80%;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content h2 {
+    font-size: 2.6rem;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content p {
+    margin-top: 60px;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content .client {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button {
+    align-items: center;
+    margin-top: 150px;
+
+
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button h3 {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.section-7 .container .page-content .part-2 .layer .layer__content .button img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* ===================IMG-2================================ */
+.section-7 .container .page-content .part-2 .left .img2 {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 127, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .left .img2 img {
+    width: 100%;
+
+}
+
+.section-7 .container .page-content .part-2 .left .img2 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 105, 90, 0.616);
+    position: absolute;
+    bottom: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .left .img2:hover .layer {
+    bottom: 0;
+}
+/* ===================IMG-3================================ */
+.section-7 .container .page-content .part-2 .left .img3 {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 127, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .left .img3 img {
+    width: 100%;
+
+}
+
+.section-7 .container .page-content .part-2 .left .img3 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 105, 90, 0.616);
+    position: absolute;
+    bottom: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .left .img3:hover .layer {
+    bottom: 0;
+}
+/* ===================IMG-4================================ */
+.section-7 .container .page-content .part-2 .left .img4 {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 127, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .left .img4 img {
+    width: 100%;
+
+}
+
+.section-7 .container .page-content .part-2 .left .img4 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 105, 90, 0.616);
+    position: absolute;
+    bottom: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .left .img4:hover .layer {
+    bottom: 0;
+}
+/* ============================================================================== */
+.section-7 .container .page-content .part-2 .right {
+    width: 50%;
+    height: 100%;
+    background-color: chocolate;
+}
+/* ================IMG-1===================================== */
+.section-7 .container .page-content .part-2 .right .img1 {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(87, 210, 30);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.section-7 .container .page-content .part-2 .right .img1 img {
+    width: 100%;
+
+}
+
+.section-7 .container .page-content .part-2 .right .img1 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 71, 71, 0.603);
+    position: absolute;
+    right: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .right .img1:hover .layer {
+    right: 0;
+}
+
+/* ========================IMG-2=============================== */
+.section-7 .container .page-content .part-2 .right .img2 {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(232, 255, 28);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .right .img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-7 .container .page-content .part-2 .right .img2 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 80, 138, 0.664);
+    position: absolute;
+    top: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .right .img2:hover .layer {
+    top: 0;
+}
+
+/* .section-7 .container .page-content .part-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-7 .container .page-content .part-3 .left {
+    width: 40%;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(129, 129, 129);
+}
+
+.section-7 .container .page-content .part-3 .right button {
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+} */
+/* ================IMG-3===================================== */
+.section-7 .container .page-content .part-2 .right .img3 {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(87, 210, 30);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.section-7 .container .page-content .part-2 .right .img3 img {
+    width: 100%;
+
+}
+
+.section-7 .container .page-content .part-2 .right .img3 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 71, 71, 0.603);
+    position: absolute;
+    right: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .right .img3:hover .layer {
+    right: 0;
+}
+
+/* ========================IMG-4=============================== */
+.section-7 .container .page-content .part-2 .right .img4 {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(232, 255, 28);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-7 .container .page-content .part-2 .right .img4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-7 .container .page-content .part-2 .right .img4 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 80, 138, 0.664);
+    position: absolute;
+    top: -100%;
+    transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7 .container .page-content .part-2 .right .img4:hover .layer {
+    top: 0;
+}
+
+.section-7 .container .page-content .part-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-7 .container .page-content .part-3 .left {
+    width: 40%;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: rgb(129, 129, 129);
+}
+
+.section-7 .container .page-content .part-3 .right button {
+    width: 140px;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+}
+/* ============================================================ */
+
+
+
+
+
+.section-8{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2900px;
+}
+.section-8 .container{
+    width: 80%;
+}
+.section-8 .container .left{
+    font-size: 1.6rem;
+}
+.section-8 .container .right p{
+    font-size: 1.3rem;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+}
+.section-8 .container .right button{
+    width: 140px;
+    height: 60px;
+    font-size: 1.1rem;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(255, 255, 49);
+}
+.section-8 .container .right button:hover{
+    background-color: rgb(204, 204, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-9 {
+    width: 100%;
+    height: 600px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-9 .container {
+    width: 80%;
+    height: 70%;
+
+}
+
+.section-9 .container .part-1 {
+    width: 100%;
+    height: 27%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-1 h2 {
+    font-size: 3rem;
+
+}
+
+.section-9 .container .part-1 h4 {
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 25px;
+}
+
+.section-9 .container .part-1 h5 {
+    color: rgb(117, 117, 117);
+
+}
+
+.section-9 .container .part-2 .images {
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.section-9 .container .part-2 .img img {
+    width: 120px;
+}
+
+.section-10 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-10 .container {
+    width: 80%;
+    height: 47%;
+}
+
+.section-10 .container .left {
+    width: 50%;
+    height: 100%;
+}
+
+.section-10 .container .left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-10 .container .left .mail {
+    margin-top: 40px;
+    color: blue;
+}
+
+.section-10 .container .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-left: solid 3px rgb(185, 185, 185);
+}
+
+.section-10 .container .right .center {
+    position: absolute;
+    justify-content: space-between;
+    width: 70%;
+    top: 0;
+    right: 0;
+}
+.section-10 .container .right .center h5{
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+}
+.section-10 .container .right .center h4{
+    margin-bottom: 10px;
+}
+.section-10 .container .right .center span{
+    margin-left: 5px;
+}
+.section-11 {
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-11 .container .logo {
+    color: rgb(0, 0, 0);
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.section-11 .container .link {
+    color: rgb(107, 107, 107);
+    width: 380px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-11 .container .copyright {
+    width: 300px;
+    color: rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-11 .container .copyright h4{
+    position: absolute;
+    right: 0;
+}
+
